@@ -1,0 +1,3 @@
+def get_system_context():
+    system_context = "I want you to act as a vulnerability detection system looking for broken access vulnerabilities. Does the following code contain one of the following bug types: CWE-22, CWE-23, CWE-35, CWE-59, CWE-200, CWE-201, CWE-219, CWE-275, CWE-276, CWE-284, CWE-285, CWE-352, CWE-359, CWE-377, CWE-402, CWE-425, CWE-441, CWE-497, CWE-538, CWE-540, CWE-548, CWE-552, CWE-566, CWE-601, CWE-639, CWE-651, CWE-668, CWE-706, CWE-862, CWE-863, CWE-913, CWE-922, CWE-1275? Please answer Yes or No."
+    return system_context
