@@ -1,3 +1,7 @@
 {"total": 19, "yes": 16, "no": 3, "other": 0, "yes_but_no_cwe": 6, "file": "results/scarf-beta/basic.jsonl"}
 {"total": 19, "yes": 18, "no": 1, "other": 0, "yes_but_no_cwe": 2, "file": "results/scarf-beta/in_context_random.jsonl"}
 {"total": 19, "yes": 18, "no": 1, "other": 0, "yes_but_no_cwe": 1, "file": "results/scarf-beta/in_context_pair.jsonl"}
+{"total": 13, "yes": 4, "no": 9, "other": 0, "yes_but_no_cwe": 3, "file": "results/shopping-web/basic.jsonl"}
+{"total": 13, "yes": 9, "no": 4, "other": 0, "yes_but_no_cwe": 3, "file": "results/shopping-web/in_context_random.jsonl"}
+{"total": 13, "yes": 10, "no": 3, "other": 0, "yes_but_no_cwe": 2, "file": "results/shopping-web/in_context_pair.jsonl"}
+{"total": 187, "yes": 138, "no": 48, "other": 1, "yes_but_no_cwe": 74, "file": "results/awcm/basic.jsonl"}

@@ -1,8 +1,5 @@
-
-
 import json
 import os
-
 
 def starts_with_yes_no_or_other(word):
     word = word.lower()

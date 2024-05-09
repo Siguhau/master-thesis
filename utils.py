@@ -8,6 +8,8 @@ from template.system_context import get_system_context, get_user_task
 
 # create a function that appends a dict to a given json file
 def append_to_json_file(file, data):
+    if not os.path.exists(os.path.dirname(file)):
+        os.makedirs(os.path.dirname(file))
     with open(file, "a") as jsonFile:
         json_str = json.dumps(data) + '\n'
         jsonFile.write(json_str)
@@ -32,7 +34,7 @@ def get_files_of_given_type_in_folder(folder, file_type):
     return files_of_type
 
 def get_file_content(file):
-    with open(file, "r") as f:
+    with open(file, "r", encoding='utf-8') as f:
         content = f.read()
     return content
 
