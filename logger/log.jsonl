@@ -310,3 +310,100 @@
 {"timestamp": "2024-05-09 13:39:54.164694", "message": "prompts/awcm/basic.jsonl"}
 {"timestamp": "2024-05-09 13:39:55.165033", "message": "prompts/awcm/basic.jsonl"}
 {"timestamp": "2024-05-09 13:39:59.220375", "message": "prompts/awcm/basic.jsonl"}
+{"timestamp": "2024-05-14 16:14:59.681809", "message": "Starting task for scarf-beta-test"}
+{"timestamp": "2024-05-14 16:14:59.683809", "message": "Generating prompts for scarf-beta-test"}
+{"timestamp": "2024-05-14 16:14:59.815811", "message": "Using prompts for scarf-beta-test"}
+{"timestamp": "2024-05-14 16:15:01.331568", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:15:16.079030", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:15:19.382890", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:15:21.259270", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:15:40.233209", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:15:41.222565", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:15:49.635576", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:15:50.753303", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:15:51.751045", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:16:04.441871", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:16:10.669623", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:16:40.694837", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:16:49.093474", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:16:50.590881", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:17:07.452734", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:17:19.807029", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:17:32.298137", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:17:33.682419", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:17:34.934427", "message": "prompts/scarf-beta-test/basic.jsonl"}
+{"timestamp": "2024-05-14 16:17:54.735219", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:18:11.214460", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:18:16.756052", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:18:36.820815", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:18:59.658432", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:19:03.789525", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:19:26.920126", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:19:51.605183", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:20:13.097047", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:20:27.967662", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:20:41.053336", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:20:55.293599", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:21:19.492661", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:21:39.998690", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:22:01.059135", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:22:22.302464", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:22:44.144761", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:23:07.349268", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:23:30.285472", "message": "prompts/scarf-beta-test/in_context_random.jsonl"}
+{"timestamp": "2024-05-14 16:23:46.526604", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:24:05.268851", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:24:10.745909", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:24:31.340077", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:24:54.639734", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:25:00.098744", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:25:15.947064", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:25:37.926062", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:26:08.112712", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:26:23.540009", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:26:43.253021", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:26:57.485684", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:27:19.024328", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:27:34.390611", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:27:58.336975", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:28:24.152654", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:28:32.828368", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:28:52.480038", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:29:16.433728", "message": "prompts/scarf-beta-test/in_context_pair.jsonl"}
+{"timestamp": "2024-05-14 16:29:16.433728", "message": "Analyzing results for scarf-beta-test"}
+{"timestamp": "2024-05-14 16:29:17.040728", "message": "Finished task for scarf-beta-test"}
+{"timestamp": "2024-05-14 16:32:27.258223", "message": "Starting task for scarf-beta-test-2"}
+{"timestamp": "2024-05-14 16:32:27.260226", "message": "Generating prompts for scarf-beta-test-2"}
+{"timestamp": "2024-05-14 16:32:27.356224", "message": "Using prompts for scarf-beta-test-2"}
+{"timestamp": "2024-05-14 16:32:36.576919", "message": "prompts/scarf-beta-test-2/basic.jsonl"}
+{"timestamp": "2024-05-14 16:33:23.444859", "message": "Starting task for scarf-beta-test-3"}
+{"timestamp": "2024-05-14 16:33:23.446856", "message": "Generating prompts for scarf-beta-test-3"}
+{"timestamp": "2024-05-14 16:33:23.466857", "message": "Using prompts for scarf-beta-test-3"}
+{"timestamp": "2024-05-14 16:33:36.142589", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:33:44.630519", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:33:45.520033", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:33:55.571372", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:34:09.635828", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:34:11.832490", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:34:21.417523", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:34:31.710476", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:34:41.497419", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:34:46.244703", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:34:49.055643", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:34:51.638496", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:34:56.810240", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:35:10.989732", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:35:18.241888", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:35:27.563105", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:35:33.481489", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:35:41.731258", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:35:55.078864", "message": "prompts/scarf-beta-test-3/basic.jsonl"}
+{"timestamp": "2024-05-14 16:35:55.078864", "message": "Analyzing results for scarf-beta-test-3"}
+{"timestamp": "2024-05-14 16:35:55.189835", "message": "Finished task for scarf-beta-test-3"}
+{"timestamp": "2024-05-14 21:46:22.301963", "message": "Starting task for scarf-beta-test-4"}
+{"timestamp": "2024-05-14 21:46:22.302962", "message": "Generating prompts for scarf-beta-test-4"}
+{"timestamp": "2024-05-14 21:47:17.815350", "message": "Starting task for scarf-beta-test-4"}
+{"timestamp": "2024-05-14 21:47:17.816356", "message": "Generating prompts for scarf-beta-test-4"}
+{"timestamp": "2024-05-14 21:47:17.895349", "message": "Using prompts for scarf-beta-test-4"}
+{"timestamp": "2024-05-14 21:47:43.484801", "message": "prompts/scarf-beta-test-4/simple_cot.jsonl"}
+{"timestamp": "2024-05-14 21:48:09.075512", "message": "prompts/scarf-beta-test-4/simple_cot.jsonl"}

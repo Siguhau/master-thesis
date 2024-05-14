@@ -27,7 +27,7 @@ class GPT_Prompt:
 class GPT_system:
     def __init__(self, ):
         self.client = OpenAI(api_key = api_key())
-        self.model = "gpt-4-turbo-2024-04-09"
+        self.model = "gpt-4o-2024-05-13"
         self.prompt = GPT_Prompt()
 
     def set_prompt(self, prompt):

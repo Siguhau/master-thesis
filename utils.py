@@ -2,9 +2,59 @@ import json
 import os
 import random
 
+from analyzer import analyze_results
 from gpt_api import GPT_Prompt, GPT_system
 from logger import log
-from template.system_context import get_system_context, get_user_task
+from template.contexts import get_cot_user_task, get_system_context, get_user_task, get_cot_context
+
+def run_tasks(application_path, save_name, filetypes):
+    """
+    Run all tasks for a given application path.
+    Creates needed directories and files.
+    Generates prompts for the given application path.
+    Uses the prompts to ask the GPT model.
+    Analyzes the results.
+    """
+    log("Starting task for " + save_name)
+    """Create all dirs if they don't exist"""
+    # create dir for prompts like this: prompts/save_name/
+    if not os.path.exists("prompts/" + save_name):
+        os.makedirs("prompts/" + save_name)
+    # create dir for results like this: results/save_name/
+    if not os.path.exists("results/" + save_name):
+        os.makedirs("results/" + save_name)
+    if not os.path.exists("analyze/analyze/results/" + save_name):
+        os.makedirs("analyze/analyze/results/" + save_name)
+    
+
+    # Generate prompts for the given folder
+    log("Generating prompts for " + save_name)
+    """ generate_basic_prompts_for_folder(
+        application_path, filetypes, "prompts/" + save_name + "/basic.jsonl")
+    generate_in_context_random_prompts_for_folder(
+        application_path, filetypes, "prompts/" + save_name + "/in_context_random.jsonl")
+    generate_in_context_pair_prompts_for_folder(
+        application_path, filetypes, "prompts/" + save_name + "/in_context_pair.jsonl") """
+    generate_simple_cot_prompts_for_folder(
+        application_path, filetypes, "prompts/" + save_name + "/simple_cot.jsonl")
+
+    # Use the prompts to ask the GPT model
+    log("Using prompts for " + save_name)
+    """ use_prompts_from_file(
+        "prompts/" + save_name + "/basic.jsonl", "results/" + save_name + "/basic.jsonl")
+    use_prompts_from_file(
+        "prompts/" + save_name + "/in_context_random.jsonl", "results/" + save_name + "/in_context_random.jsonl")
+    use_prompts_from_file(
+        "prompts/" + save_name + "/in_context_pair.jsonl", "results/" + save_name + "/in_context_pair.jsonl") """
+    use_prompts_from_file(
+        "prompts/" + save_name + "/simple_cot.jsonl", "results/" + save_name + "/simple_cot.jsonl")
+    
+    # Analyze the results
+    log("Analyzing results for " + save_name)
+    """     analyze_results("results/" + save_name + "/basic.jsonl")
+    analyze_results("results/" + save_name + "/in_context_random.jsonl")
+    analyze_results("results/" + save_name + "/in_context_pair.jsonl") """
+    log("Finished task for " + save_name)
 
 # create a function that appends a dict to a given json file
 def append_to_json_file(file, data):
@@ -136,6 +186,38 @@ def generate_in_context_pair_prompts_for_folder(folder_path, file_types, save_pa
             "prompt": prompt.get_prompt()
             }
         append_to_json_file(save_path, in_context_pair_prompt)
+
+def generate_simple_cot_prompt_for_file(file):
+    prompt = GPT_Prompt()
+    context = get_cot_context()
+    prompt.set_system_context(context)
+    file_content = get_file_content(file)
+    random_number = random.randint(0, 9)
+    example = load_example_prompt_json(random_number)
+    prompt.add_user_message(get_cot_user_task() + " " + example["code"])
+    prompt.add_assistant_message(example["cot_answer"])
+    prompt.add_user_message(get_cot_user_task() + file_content)
+    return file, prompt
+
+
+def generate_simple_cot_prompts_for_folder(folder_path, file_types, save_path):
+    files = []
+    if type(file_types) == str:
+        files = get_files_of_given_type_in_folder(folder_path, file_types)
+    if type(file_types) == list:
+        for file_type in file_types:
+            files += get_files_of_given_type_in_folder(folder_path, file_type)
+    id = 0
+    for file in files:
+        id += 1
+        file, prompt = generate_simple_cot_prompt_for_file(file)
+        simple_cot_prompt = {
+            "id": id,
+            "prompt_type": "simple_cot",
+            "file": file,
+            "prompt": prompt.get_prompt()
+            }
+        append_to_json_file(save_path, simple_cot_prompt)
 
 def load_example_prompt_json(id):
     example_prompt = get_line_from_jsonl_file("CWE-examples/examples.jsonl", id)
