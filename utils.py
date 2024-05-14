@@ -29,31 +29,31 @@ def run_tasks(application_path, save_name, filetypes):
 
     # Generate prompts for the given folder
     log("Generating prompts for " + save_name)
-    """ generate_basic_prompts_for_folder(
+    generate_basic_prompts_for_folder(
         application_path, filetypes, "prompts/" + save_name + "/basic.jsonl")
     generate_in_context_random_prompts_for_folder(
         application_path, filetypes, "prompts/" + save_name + "/in_context_random.jsonl")
     generate_in_context_pair_prompts_for_folder(
-        application_path, filetypes, "prompts/" + save_name + "/in_context_pair.jsonl") """
+        application_path, filetypes, "prompts/" + save_name + "/in_context_pair.jsonl")
     generate_simple_cot_prompts_for_folder(
         application_path, filetypes, "prompts/" + save_name + "/simple_cot.jsonl")
 
     # Use the prompts to ask the GPT model
     log("Using prompts for " + save_name)
-    """ use_prompts_from_file(
+    use_prompts_from_file(
         "prompts/" + save_name + "/basic.jsonl", "results/" + save_name + "/basic.jsonl")
     use_prompts_from_file(
         "prompts/" + save_name + "/in_context_random.jsonl", "results/" + save_name + "/in_context_random.jsonl")
     use_prompts_from_file(
-        "prompts/" + save_name + "/in_context_pair.jsonl", "results/" + save_name + "/in_context_pair.jsonl") """
+        "prompts/" + save_name + "/in_context_pair.jsonl", "results/" + save_name + "/in_context_pair.jsonl")
     use_prompts_from_file(
         "prompts/" + save_name + "/simple_cot.jsonl", "results/" + save_name + "/simple_cot.jsonl")
     
     # Analyze the results
     log("Analyzing results for " + save_name)
-    """     analyze_results("results/" + save_name + "/basic.jsonl")
+    analyze_results("results/" + save_name + "/basic.jsonl")
     analyze_results("results/" + save_name + "/in_context_random.jsonl")
-    analyze_results("results/" + save_name + "/in_context_pair.jsonl") """
+    analyze_results("results/" + save_name + "/in_context_pair.jsonl")
     log("Finished task for " + save_name)
 
 # create a function that appends a dict to a given json file
