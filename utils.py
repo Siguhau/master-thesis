@@ -84,7 +84,7 @@ def get_files_of_given_type_in_folder(folder, file_type):
     return files_of_type
 
 def get_file_content(file):
-    with open(file, "r", encoding='utf-8') as f:
+    with open(file, "r", encoding='utf-8', errors='replace') as f:
         content = f.read()
     return content
 

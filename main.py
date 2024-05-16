@@ -1,39 +1,39 @@
 from utils import run_tasks
 
 #scarf
-print("scarf")
-scarf_path = r"C:\Users\sigur\Downloads\master-applications\scarf-beta"
-run_tasks(scarf_path, "scarf-beta", ["php"])
+#print("scarf")
+#scarf_path = r"C:\Users\sigur\Downloads\master-applications\scarf-beta"
+#run_tasks(scarf_path, "scarf-beta", ["php"])
 
 #awcm
-print("awcm")
-awcm_path = r"C:\Users\sigur\Downloads\master-applications\AWCM v2.2 final\awcm"
-run_tasks(awcm_path, "awcm", ["php", "js"])
+# print("awcm")
+# awcm_path = r"C:\Users\sigur\Downloads\master-applications\AWCM v2.2 final\awcm"
+# run_tasks(awcm_path, "awcm", ["php", "js"])
 
 #events_lister
-print("events_lister")
-events_lister_path = r"C:\Users\sigur\Downloads\master-applications\Basic-php-events-lister2.03\events2"
-run_tasks(events_lister_path, "events_lister", ["php"])
+# print("events_lister")
+# events_lister_path = r"C:\Users\sigur\Downloads\master-applications\Basic-php-events-lister2.03\events2"
+# run_tasks(events_lister_path, "events_lister", ["php"])
 
 #bwapp
-print("bwapp")
-bwapp_path = r"C:\Users\sigur\Downloads\master-applications\bWAPPv2.2\bWAPP"
-run_tasks(bwapp_path, "bwapp", ["php"])
+# print("bwapp")
+# bwapp_path = r"C:\Users\sigur\Downloads\master-applications\bWAPPv2.2\bWAPP"
+# run_tasks(bwapp_path, "bwapp", ["php"])
 
 #dvwa
-print("dvwa")
-dvwa_path = r"C:\Users\sigur\Downloads\master-applications\DVWA-master\DVWA-master"
-run_tasks(dvwa_path, "dvwa", ["php"])
+# print("dvwa")
+# dvwa_path = r"C:\Users\sigur\Downloads\master-applications\DVWA-master\DVWA-master"
+# run_tasks(dvwa_path, "dvwa", ["php"])
 
 #jsforum
-print("jsforum")
-jsforum_path = r"C:\Users\sigur\Downloads\master-applications\JsForum0.01beta"
-run_tasks(jsforum_path, "jsforum", ["jsp", "java"])
+# print("jsforum")
+# jsforum_path = r"C:\Users\sigur\Downloads\master-applications\JsForum0.01beta"
+# run_tasks(jsforum_path, "jsforum", ["jsp", "java"])
 
 #mybb
-print("mybb")
-mybb_path = r"C:\Users\sigur\Downloads\master-applications\mybb_1607\Upload"
-run_tasks(mybb_path, "mybb", ["php"])
+# print("mybb")
+# mybb_path = r"C:\Users\sigur\Downloads\master-applications\mybb_1607\Upload"
+# run_tasks(mybb_path, "mybb", ["php"])
 
 #mybloggie
 print("mybloggie")
