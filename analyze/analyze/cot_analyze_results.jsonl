@@ -1,0 +1,12 @@
+{"total": 40, "yes": 38, "no": 2, "other": 0, "yes_but_no_cwe": 4, "file": "results/scarf-beta/simple_cot.jsonl"}
+{"total": 738, "yes": 374, "no": 358, "other": 6, "yes_but_no_cwe": 33, "file": "results/awcm/simple_cot.jsonl"}
+{"total": 47, "yes": 44, "no": 3, "other": 0, "yes_but_no_cwe": 4, "file": "results/events_lister/simple_cot.jsonl"}
+{"total": 407, "yes": 342, "no": 64, "other": 1, "yes_but_no_cwe": 34, "file": "results/bwapp/simple_cot.jsonl"}
+{"total": 275, "yes": 184, "no": 90, "other": 1, "yes_but_no_cwe": 22, "file": "results/dvwa/simple_cot.jsonl"}
+{"total": 80, "yes": 53, "no": 27, "other": 0, "yes_but_no_cwe": 10, "file": "results/jsforum/simple_cot.jsonl"}
+{"total": 694, "yes": 248, "no": 441, "other": 5, "yes_but_no_cwe": 23, "file": "results/mybb/simple_cot.jsonl"}
+{"total": 117, "yes": 87, "no": 29, "other": 1, "yes_but_no_cwe": 13, "file": "results/mybloggie/simple_cot.jsonl"}
+{"total": 68, "yes": 42, "no": 26, "other": 0, "yes_but_no_cwe": 10, "file": "results/phpns/simple_cot.jsonl"}
+{"total": 60, "yes": 49, "no": 8, "other": 3, "yes_but_no_cwe": 7, "file": "results/phpoll/simple_cot.jsonl"}
+{"total": 71, "yes": 49, "no": 21, "other": 1, "yes_but_no_cwe": 2, "file": "results/online_store/simple_cot.jsonl"}
+{"total": 101, "yes": 72, "no": 29, "other": 0, "yes_but_no_cwe": 6, "file": "results/wackopicko/simple_cot.jsonl"}
