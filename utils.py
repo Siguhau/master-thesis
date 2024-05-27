@@ -2,7 +2,7 @@ import json
 import os
 import random
 
-from analyzer import analyze_results
+from analyzer import analyze_results, cot_analyze_results
 from gpt_api import GPT_Prompt, GPT_system
 from logger import log
 from template.contexts import get_cot_user_task, get_system_context, get_user_task, get_cot_context
@@ -54,6 +54,7 @@ def run_tasks(application_path, save_name, filetypes):
     analyze_results("results/" + save_name + "/basic.jsonl")
     analyze_results("results/" + save_name + "/in_context_random.jsonl")
     analyze_results("results/" + save_name + "/in_context_pair.jsonl")
+    cot_analyze_results("results/" + save_name + "/simple_cot.jsonl")
     log("Finished task for " + save_name)
 
 # create a function that appends a dict to a given json file
