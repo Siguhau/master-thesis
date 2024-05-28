@@ -172,6 +172,7 @@ def cot_analyze_single_result(data, file_path):
                     'answer': orig_answer
                 }
                 save_to_file(save_dict, file_path)
+                break
             else:
                 save_dict = {
                     'id': id,
@@ -183,6 +184,7 @@ def cot_analyze_single_result(data, file_path):
                 }
                 vulnerable_files.append(file)
                 save_to_file(save_dict, file_path)
+                break
         if yes_no == 'no':
             save_dict = {
                 'id': id,
@@ -193,6 +195,7 @@ def cot_analyze_single_result(data, file_path):
                 'answer': orig_answer
             }
             save_to_file(save_dict, file_path)
+            break
         
         if yes_no == None:
             save_dict = {
@@ -204,6 +207,8 @@ def cot_analyze_single_result(data, file_path):
                 'answer': orig_answer
             }
             save_to_file(save_dict, file_path)
+            break
+        
 
     return vulnerable_files
 
