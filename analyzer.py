@@ -154,6 +154,17 @@ def cot_analyze_single_result(data, file_path):
         answer_type = answer_type.lower()
         # does answer contain the answer_type
         if answer_type not in answer:
+            if answer_type == "summary":
+                save_dict = {
+                    'id': id,
+                    'file': file,
+                    'prompt_type': prompt_type,
+                    'short_answer': 'other',
+                    'cwe_in_answer': 'None',
+                    'answer': orig_answer
+                }
+                save_to_file(save_dict, file_path)
+                break
             continue
 
         #get the answer after the first apperance of the answer type
@@ -208,6 +219,7 @@ def cot_analyze_single_result(data, file_path):
             }
             save_to_file(save_dict, file_path)
             break
+    
         
 
     return vulnerable_files
