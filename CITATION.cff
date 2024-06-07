@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use the data in this repository, please cite it as below."
+title: "A Case Study on using GPT-4o for Broken Role-Based Access Control Vulnerability Detection"
+version: 1.0.0
+date-released: 2024-06-07
+authors:
+  - family-names: Hauan
+    given-names: Sigurd
+    affiliation: "NTNU"
+identifiers:
+  - type: url
+    value: "https://github.com/siguhau/master-thesis"
+license: "MIT"
+repository-code: "https://github.com/siguhau/master-thesis"
