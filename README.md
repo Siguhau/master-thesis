@@ -1,6 +1,6 @@
 # A Case Study on using GPT-4o for Broken Role-Based Access Control Vulnerability Detection
 
-This repository is contains the implementation and collected data used in my Computer Science Master Thesis at the Norwegian University of Science and Technology (NTNU)
+This repository is contains the implementation and collected data used in my Computer Science Master Thesis at the Norwegian University of Science and Technology (NTNU). The Thesis is available on [NTNU Open](https://hdl.handle.net/11250/3149142)
 
 ## Abstract
 
