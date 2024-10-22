@@ -10,5 +10,7 @@ authors:
 identifiers:
   - type: url
     value: "https://github.com/siguhau/master-thesis"
+  - type: hdl
+    value: "https://hdl.handle.net/11250/3149142"
 license: "MIT"
 repository-code: "https://github.com/siguhau/master-thesis"
